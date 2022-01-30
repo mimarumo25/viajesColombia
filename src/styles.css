@@ -1,0 +1,21 @@
+.error{
+    color: red;
+}
+.hovers{
+    border-radius: 30px;
+}
+.hovers:hover{
+background-color: rgb(132, 153, 170);
+border-radius: 30px;
+}
+@media (max-width: 920px) {
+.movile{
+    width: 100% !important;
+}
+}
+@media (max-width: 999px) {
+    .hovers{
+       display: flex !important;
+       justify-content: center;
+    }
+    }
